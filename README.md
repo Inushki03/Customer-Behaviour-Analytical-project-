@@ -1,6 +1,6 @@
-Customer Behavior Analysis – End-to-End Data Analytics Project
+###Customer Behavior Analysis – End-to-End Data Analytics Project
 
-📌 Project Overview
+##📌 Project Overview
 
 This project focuses on analyzing retail customer behavior to identify key purchasing patterns, high-value customer segments, category performance, and overall sales trends.
 An interactive Power BI dashboard was built to visualize these insights clearly for business decision-making.
@@ -15,7 +15,7 @@ Power BI (data modeling, visual dashboards)
 
 Presentation & report preparation
 
-📊 Dashboard Features
+##📊 Dashboard Features
 KPIs
 
 2.8K+ Customers
@@ -36,7 +36,7 @@ Revenue by Age Groups
 
 Slicers for dynamic filtering (Gender, Category, Subscription, Shipping Type)
 
-🧹 Data Preprocessing (Python)
+##🧹 Data Preprocessing (Python)
 
 Loaded the dataset using Pandas
 
@@ -56,7 +56,7 @@ Cleaned redundant fields (removed overlapping promo_code_used)
 
 Exported cleaned CSV for SQL analysis
 
-🛢 SQL Analysis
+##🛢 SQL Analysis
 
 Performed queries for:
 
@@ -72,7 +72,7 @@ Subscription revenue analysis
 
 Customer segmentation (New, Returning, Loyal)
 
-📈 Business Recommendations
+##📈 Business Recommendations
 
 Target the Young Adult age group due to higher spending
 
@@ -84,7 +84,7 @@ Give targeted discounts for Clothing, the top-performing category
 
 Strengthen new customer acquisition strategies
 
-🛠 Tools & Technologies
+##🛠 Tools & Technologies
 
 Python (Pandas, NumPy)
 
@@ -96,7 +96,7 @@ Google Colab
 
 VS Code / DBeaver (optional)
 
-🎯 Project Deliverables
+##🎯 Project Deliverables
 
 Cleaned dataset (CSV)
 
