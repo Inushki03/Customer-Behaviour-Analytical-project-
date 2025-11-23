@@ -1,109 +1,85 @@
-###Customer Behavior Analysis – End-to-End Data Analytics Project
+# **Customer Behavior Analysis – End-to-End Data Analytics Project**
 
-##📌 Project Overview
-
-This project focuses on analyzing retail customer behavior to identify key purchasing patterns, high-value customer segments, category performance, and overall sales trends.
+## 📌 **Project Overview**
+This project focuses on analyzing retail customer behavior to identify key purchasing patterns, high-value customer segments, category performance, and overall sales trends.  
 An interactive Power BI dashboard was built to visualize these insights clearly for business decision-making.
 
 This is a full end-to-end project involving:
 
-Python (data cleaning, preprocessing, feature engineering)
+- **Python** (data cleaning, preprocessing, feature engineering)
+- **PostgreSQL / SQL** (deep querying & analysis)
+- **Power BI** (data modeling, visual dashboards)
+- **Presentation & report preparation**
 
-PostgreSQL / SQL (deep querying & analysis)
+---
 
-Power BI (data modeling, visual dashboards)
+## 📊 **Dashboard Features**
 
-Presentation & report preparation
+### **KPIs**
+- **2.8K+ Customers**
+- **Average Purchase Amount:** $59.87  
+- **Average Review Rating:** 3.75  
 
-##📊 Dashboard Features
-KPIs
+### **Visual Insights**
+- Revenue by Category  
+- Sales Count by Category  
+- Customer Distribution by Subscription Status  
+- Revenue by Age Groups  
+- Dynamic slicers (Gender, Category, Subscription, Shipping Type)
 
-2.8K+ Customers
+---
 
-Avg Purchase Amount: $59.87
+## 🧹 **Data Preprocessing (Python)**
 
-Avg Review Rating: 3.75
+- Imported the dataset using **Pandas**
+- Performed **EDA** to understand structure and missing values
+- Filled null values using **category-wise medians**
+- Standardized column names to **snake_case**
+- Created new features:
+  - `age_group` using *qcut*
+  - `frequency_of_purchases`
+- Removed redundant fields (dropped `promo_code_used`)
+- Exported cleaned data to CSV for SQL analysis
 
-Visual Insights
+---
 
-Revenue by Category
+## 🛢 **SQL Analysis**
 
-Sales Count by Category
+Executed SQL queries to extract key business insights:
 
-Customer Distribution by Subscription Status
+- Total revenue by gender  
+- Customers spending above the average  
+- Top 5 products by review rating  
+- Comparison of Standard vs Express shipping  
+- Revenue differences by subscription status  
+- Customer segmentation (New, Returning, Loyal)
 
-Revenue by Age Groups
+---
 
-Slicers for dynamic filtering (Gender, Category, Subscription, Shipping Type)
+## 📈 **Business Recommendations**
 
-##🧹 Data Preprocessing (Python)
+- Focus on the **Young Adult** age group due to higher spending
+- Promote the **Subscription Program** for increased recurring revenue
+- Provide **exclusive loyalty rewards** to retain top customers
+- Offer **targeted discounts** for the Clothing category
+- Improve marketing strategies to acquire more **new customers**
 
-Loaded the dataset using Pandas
+---
 
-Performed EDA to understand structure and missing values
+## 🛠 **Tools & Technologies**
 
-Imputed null values using category-wise medians
+- **Python** (Pandas, NumPy)
+- **PostgreSQL / SQL**
+- **Power BI**
+- **Google Colab**
+- VS Code / DBeaver *(optional)*
 
-Converted columns to snake_case
+---
 
-Created new features:
+## 🎯 **Project Deliverables**
 
-age_group using qcut
-
-frequency_of_purchases
-
-Cleaned redundant fields (removed overlapping promo_code_used)
-
-Exported cleaned CSV for SQL analysis
-
-##🛢 SQL Analysis
-
-Performed queries for:
-
-Total revenue by gender
-
-Customers spending above the average
-
-Top 5 products by review rating
-
-Shipping type comparison
-
-Subscription revenue analysis
-
-Customer segmentation (New, Returning, Loyal)
-
-##📈 Business Recommendations
-
-Target the Young Adult age group due to higher spending
-
-Promote subscription program for improved revenue
-
-Offer exclusive loyalty rewards
-
-Give targeted discounts for Clothing, the top-performing category
-
-Strengthen new customer acquisition strategies
-
-##🛠 Tools & Technologies
-
-Python (Pandas, NumPy)
-
-PostgreSQL / SQL
-
-Power BI
-
-Google Colab
-
-VS Code / DBeaver (optional)
-
-##🎯 Project Deliverables
-
-Cleaned dataset (CSV)
-
-SQL queries
-
-Power BI report (.pbix)
-
-Presentation slides
-
-Project documentation
+- Cleaned dataset (CSV)
+- SQL queries
+- Power BI report (.pbix)
+- Presentation slides
+- Complete project documentation
